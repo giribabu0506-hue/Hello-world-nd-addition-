@@ -1,0 +1,26 @@
+// Examples of FOR loops in AuraGB programming language
+
+// Simple FOR loop that prints numbers from 1 to 5
+FOR i = 1 TO 5
+    PRINT i
+END FOR
+
+// FOR loop to calculate the sum of first 5 natural numbers
+sum = 0
+FOR i = 1 TO 5
+    sum = sum + i
+END FOR
+PRINT sum
+
+// FOR loop with step increment
+FOR i = 1 TO 10 STEP 2
+    PRINT i
+END FOR
+
+// Nested FOR loop to create a multiplication table
+FOR i = 1 TO 5
+    FOR j = 1 TO 5
+        PRINT i * j
+    END FOR
+    PRINT '\n' // Print a new line after each row
+END FOR
