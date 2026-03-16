@@ -1,0 +1,41 @@
+// Conditional Statements in AuraGB
+
+// Example of If-Else Statement
+if (condition) {
+    // code to execute if the condition is true
+    return true;
+} else {
+    // code to execute if the condition is false
+    return false;
+}
+
+// Example of Else-If Statement
+if (condition1) {
+    // code for condition1
+} else if (condition2) {
+    // code for condition2
+} else {
+    // code if none of the above conditions are met
+}
+
+// Example of Nested Conditionals
+if (outerCondition) {
+    if (innerCondition) {
+        // code for inner condition
+    }
+}
+
+// Example of Ternary Operator
+result = (condition) ? valueIfTrue : valueIfFalse;
+
+// Example of Switch-Case Statement
+switch (variable) {
+    case value1:
+        // code for case value1
+        break;
+    case value2:
+        // code for case value2
+        break;
+    default:
+        // code if none of the cases match
+}
